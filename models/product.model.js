@@ -11,7 +11,7 @@ let ProductSchema = new Schema({
     _prix: {type: Number, required: true},
     _nbStock: {type: Number, required: true},
     _stock: {type: Boolean, required: true},
-    _date: {type: Date, required: true},
+    _date: {type: Date, required: true}
 });
 
 
